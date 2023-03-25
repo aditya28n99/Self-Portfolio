@@ -1,0 +1,15 @@
+
+.col-white{
+    text-decoration: none;
+    color: white;
+}
+.col-white:hover{
+    color: gray;
+}
+.col-black{
+    text-decoration: none;
+    color: black;
+}
+.col-black:hover{
+    color: gray;
+}
