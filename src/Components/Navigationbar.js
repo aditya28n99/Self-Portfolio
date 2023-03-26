@@ -1,13 +1,12 @@
 import '../Styles/Navigationbar.css';
 // import react from 'react';
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import web from '../Images/tech_logo_bg.png'
 import { Link } from 'react-router-dom';
+import { BsGithub,BsInstagram,BsLinkedin,BsFacebook} from "react-icons/bs";
 
 
 function Navigationbar() {
@@ -47,15 +46,12 @@ function Navigationbar() {
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
-                            <Form className="d-flex">
-                                <Form.Control
-                                    type="search"
-                                    placeholder="Search"
-                                    className="me-2"
-                                    aria-label="Search"
-                                />
-                                <Button variant="outline-success">Search</Button>
-                            </Form>
+                            <Nav className="d-flex">
+                                <Link href='/' className='mx-2' >< BsGithub style={{fontSize: 24, color: 'gray'}} /></Link>
+                                <Link to='/' className='mx-2' >< BsLinkedin style={{fontSize: 24, color: 'gray'}} /></Link>
+                                <Link to='/' className='mx-2' >< BsInstagram style={{fontSize: 24, color: 'gray'}} /></Link>
+                                <Link to='/' className='mx-2' >< BsFacebook style={{fontSize: 24, color: 'gray'}} /></Link>
+                            </Nav>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

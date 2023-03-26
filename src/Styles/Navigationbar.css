@@ -6,6 +6,10 @@
 .col-white:hover{
     color: gray;
 }
+.col-white:focus{
+    border-bottom: 2px solid gray;
+    color: yellow;
+}
 .col-black{
     text-decoration: none;
     color: black;

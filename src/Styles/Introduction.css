@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script:wght@500;600&family=Josefin+Sans&family=Mulish:wght@800&family=Open+Sans&family=Source+Code+Pro&display=swap');
+
+
+.container-box{
+    justify-content: end;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.intro-img{
+    display: flex;
+    justify-content: center;
+    max-width: 340px;
+    max-height: 340px;
+    background-image: url("../Images/Gradient\ Bg.webp");
+    background-size: contain;
+    position: relative;
+}
+.intro-img #self{
+    width: 250px;
+    position: absolute;
+    top: 7px;
+    z-index: 10;
+
+}
+.intro-img #selfbg{
+    width: 100%;
+}
+.intro-text{
+    justify-content: center;
+    color: white;
+    max-height: 340px;
+}
+.textbox{
+    font-weight: 300;
+}
+.title{
+    /* font-family: 'Mulish', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    text-shadow: 4px 1px rgb(34, 29, 42), 5px 2px 4px rgb(67, 15, 67), 3px 3px 10px lightskyblue;
+    
+}
+.typed-text{
+    font-size: 35px;
+    color: white;
+    font-family:  'Comfortaa','Josefin Sans', sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 2px 3px blueviolet, 1px 2px 5px red, 2px 2px 15px greenyellow;
+}
+.para{
+    padding: 0 20px;
+    padding-top: 70px;
+    font-size: 21px;
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 674px){
+
+    .intro-img{
+        max-width: 280px;
+        max-height: 280px;
+    }
+    .intro-img #self{
+        width: 205px;
+        position: absolute;
+        top: 7px;
+        z-index: 10;
+    
+    }
+    .intro-img #selfbg{
+        width: 100%;
+    }
+    .title{
+        font-size: 60px;
+    }
+    .typed-text{
+        font-size: 25px;
+    }
+    .para{
+        padding: 0px;
+        text-align: justify;
+        font-size: 18px;
+    }
+}

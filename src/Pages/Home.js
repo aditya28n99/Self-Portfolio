@@ -1,17 +1,10 @@
 // import react from 'react';
+import '../Styles/Home.css';
+import Introduction from '../Components/Introduction';
 
-import Container from "react-bootstrap/esm/Container";
-
-function Home(){
-
-    return(<>
-    <>
-    <Container>
-        <div className="">
-            <h1>Hello World!..</h1>
-        </div>
-    </Container>
-    </>
+function Home() {
+    return (<>
+    <Introduction/>
     </>);
 };
 export default Home;
