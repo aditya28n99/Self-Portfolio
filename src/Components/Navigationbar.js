@@ -4,9 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import web from '../Images/tech_logo_bg.png'
+import web from '../Images/web-logo.png'
 import { Link } from 'react-router-dom';
-import { BsGithub,BsInstagram,BsLinkedin,BsFacebook} from "react-icons/bs";
+import SocialIcons from './SocialIcons';
+
 
 
 function Navigationbar() {
@@ -16,13 +17,13 @@ function Navigationbar() {
             <Container>
                 <Navbar  expand="lg" variant="dark">
                     <Container fluid>
-                        <Navbar.Brand href="#"> <img
-                            alt=""
+                        <Navbar.Brand><img
+                            alt="Logo"
                             src={web}
                             width="100"
                             height="100"
-                            className="d-inline-block align-top"
-                        />{' '}</Navbar.Brand>
+                            className="d-inline-block align-top logo"
+                        /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
@@ -30,11 +31,11 @@ function Navigationbar() {
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll
                             >
-                                <Nav.Link><Link to="/" className='col-white'>Home</Link></Nav.Link>
-                                <Nav.Link><Link to="/about" className='col-white'>About</Link></Nav.Link>
-                                <Nav.Link><Link to="/contact" className='col-white'>Contact</Link></Nav.Link>
-                                <Nav.Link><Link to="/" className='col-white'>Download Cv</Link></Nav.Link>
-                                <NavDropdown  title="More"  className='text-white'id="collasible-nav-dropdown">
+                                <Nav.Link><Link to="/" className='col-white pages hov-gray'>Home</Link></Nav.Link>
+                                <Nav.Link><Link to="/about" className='col-white pages hov-gray'>About</Link></Nav.Link>
+                                <Nav.Link><Link to="/contact" className='col-white pages hov-gray'>Contact</Link></Nav.Link>
+                                <Nav.Link><Link to="/" className='col-white pages hov-gray'>Download Cv</Link></Nav.Link>
+                                <NavDropdown  title="More"  className='text-white pages hov-gray'id="collasible-nav-dropdown">
                                     <NavDropdown.Item><Link to="/" className='col-black'>Projects</Link></NavDropdown.Item>
                                     <NavDropdown.Item>
                                     <Link to="/" className='col-black'>Certificates</Link>
@@ -42,16 +43,10 @@ function Navigationbar() {
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item>
                                     <Link to="/" className='col-black'>Activity</Link>
-                                        
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
-                            <Nav className="d-flex">
-                                <Link href='/' className='mx-2' >< BsGithub style={{fontSize: 24, color: 'gray'}} /></Link>
-                                <Link to='/' className='mx-2' >< BsLinkedin style={{fontSize: 24, color: 'gray'}} /></Link>
-                                <Link to='/' className='mx-2' >< BsInstagram style={{fontSize: 24, color: 'gray'}} /></Link>
-                                <Link to='/' className='mx-2' >< BsFacebook style={{fontSize: 24, color: 'gray'}} /></Link>
-                            </Nav>
+                                    <SocialIcons/>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

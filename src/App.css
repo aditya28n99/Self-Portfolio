@@ -5,3 +5,57 @@ body{
 h1{
   color: white;
 }
+.col-white{
+  text-decoration: none;
+  color: white;
+}
+.hov-gray:hover{
+  color: gray;
+}
+.col-black{
+  text-decoration: none;
+  color: black;
+}
+.col-black:hover{
+  color: gray;
+}
+.col-yellow{
+  color: yellow;
+}
+.hov-yellow:hover{
+  color: yellow;
+}
+.bg-col{
+  background-color: #1a1a1a;
+}
+.buttons:focus{
+  background-color: aqua;
+  color: black;
+}
+.buttons:focus:active{
+  background-color: aqua;
+  color: black;
+}
+.contact-bg{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  padding: 50PX;
+  margin: 0 150px;
+}
+.form-bg{
+  background-image: url("./Images/Gradient\ Bg.webp");
+  background-size: cover;
+  padding: 0 50PX;
+  margin: 40px 150px;
+}
+@media screen and (max-width: 1074px){
+
+  .contact-bg{
+    padding: 20px 10px;
+    margin: 0 10px;
+  }
+  .form-bg{
+    padding: 0 10px;
+    margin: 20px 10px;
+  }
+}

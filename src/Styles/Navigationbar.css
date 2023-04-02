@@ -1,19 +1,17 @@
 
-.col-white{
-    text-decoration: none;
-    color: white;
-}
-.col-white:hover{
-    color: gray;
-}
-.col-white:focus{
+.pages:focus{
     border-bottom: 2px solid gray;
     color: yellow;
+    
 }
-.col-black{
-    text-decoration: none;
-    color: black;
+
+.logo{
+    cursor: pointer;
+    transition: transform .5s;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
 }
-.col-black:hover{
-    color: gray;
+.logo:hover{
+    transform: scale(1.6);
 }

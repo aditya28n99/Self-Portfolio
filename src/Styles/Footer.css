@@ -1,0 +1,8 @@
+/* Footer css */
+.Footer{
+    width: 100%; 
+    background-image: url('../Images/pngwing.com.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}

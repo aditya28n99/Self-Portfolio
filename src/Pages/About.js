@@ -1,9 +1,11 @@
 // import react from 'react';
 
+import Footer from "../Components/Footer";
+
 function About(){
 
     return(<>
-    <h1>Hello About!</h1>
+    <Footer/>
     </>);
 };
 export default About;

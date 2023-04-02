@@ -60,6 +60,9 @@
     font-family: 'Josefin Sans', sans-serif;
     line-height: 30px;
 }
+.para p{
+    text-align: justify;
+}
 
 @media screen and (max-width: 674px){
 
@@ -85,7 +88,9 @@
     }
     .para{
         padding: 0px;
-        text-align: justify;
         font-size: 18px;
+    }
+    .para p{
+        text-align: justify;
     }
 }

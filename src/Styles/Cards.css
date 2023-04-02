@@ -1,0 +1,38 @@
+/*  style={{ width: '22rem', margin: "15px", maxHeight: "600px" }} */
+
+.card{
+    width: 22rem;
+    margin: 15px;
+    max-height: 600px;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card-img{
+    max-height: 250px;
+    padding: 2px;
+    transition: transform .3s;
+}
+.card-img:hover{
+    transform: scale(1.2);
+}
+#card_title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    padding: 0 5px;
+
+}
+#card_text{
+    font-family: 'Comfortaa','Josefin Sans', sans-serif;
+    text-align: justify;
+    padding: 0 10px;
+}
+@media screen and (max-width: 674px){
+    .card{
+        width: 24rem;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+}

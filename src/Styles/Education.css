@@ -1,0 +1,14 @@
+.x-campus{
+    width: 390px;
+    height: 400px;
+}
+.x-campus img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 564px){
+    .x-campus{
+        width: 150px;
+        height: 200px;
+    }
+}

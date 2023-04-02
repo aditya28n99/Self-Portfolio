@@ -9,12 +9,12 @@ import selfiebg from "../Images/pngwing2.png";
 function Introduction() {
   return (
     <Container className=' container-box'>
-      <div className="border-bottom rounded-4 py-5 intro">
+      <div className="border-bottom rounded-4 intro">
           <div className='border-bottom  rounded-5 intro-img'>
-              <img src={selfie} alt="Image" id='self'/>
-              <img src={selfiebg} id="selfbg" />
+              <img src={selfie} alt="Self" id='self'/>
+              <img src={selfiebg} alt="bg" id="selfbg" />
           </div>
-          <div className=' p-5 intro-text' >
+          <div className='p-3 intro-text' >
             <h1 className='my-2 title'>I'am Aditya Wakale</h1>
             <Typed
               className='typed-text'
@@ -28,8 +28,8 @@ function Introduction() {
               loop >     
             </Typed>   
           </div>
-      <Container className='col-white px-5 para'>
-      <p>Recently graduated in Mechanical Engineering with distinction from Savitribai Phule Pune university. I'm passionate about new technologies and especially the web!, have relevant programming knowledge and the ability to turn business requirements into technical solutions. Looking to start my career as an entry-level Software developer with a reputed firm driven by MERN technology.</p>
+      <Container className='col-white px-3 para'>
+      <p>I am a graduate in mechanical engineering with distinction from Savitribai Phule Pune University. I'm passionate about new technologies, especially the Web! I completed the front-end with a deep understanding of HTML, CSS, and JavaScript; I also learned React and Bootstrap and have back-end programming knowledge with the core languages of Java, Node.js, and SQL. I did necessary web projects to gain an understanding of web development. and I believe I have the ability to turn business requirements into technical solutions. I am looking to start my career as an entry-level web developer with a reputed firm driven by technology.</p>
       </Container>
       </div>
     </Container>
