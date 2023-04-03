@@ -9,7 +9,8 @@ function Education() {
   return (
     
     <Container>
-        <div className='border-top border-bottom rounded-4 col-white justify-center d-flex mt-5 flex-wrap'>
+        <div className="project-title-heading" >EDUCATION</div>
+        <div className='border-top border-bottom rounded-4 col-white justify-center d-flex mt-2 flex-wrap'>
             <div className='x-details mt-4 mx-auto'>
                 <h4>SSC | Gurudev Samantbhadra vidya mandir Ellora, Aurangabad</h4>
                 <p>Science</p>

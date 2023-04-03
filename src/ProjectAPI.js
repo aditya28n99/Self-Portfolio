@@ -40,7 +40,7 @@ const ProjectAPI = [
     {
         img: svpReact,
         name: "Shree Vidya Pratishtan School Pune",
-        description: "Developed the front-end with HTML, CSS, and Js. enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. Build an app with the React Router DOM to allow nested routing. This website is hosted on GitHub on Google Drive.",
+        description: "Developed the front-end with HTML, CSS, and Js. enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. This website is hosted on GitHub on Google Drive.",
         typeofcard: "responsive",
         link: "https://new-webs-aswwebhosting.on.drv.tw/SVP-Pune/schoolPage.html",
         repo: "https://github.com/aditya28n99/SVP-Pune.git"
@@ -48,34 +48,33 @@ const ProjectAPI = [
     {
         img: Nukk,
         name: "Nukk Web Page",
-        description: "Developed the front-end with HTML, CSS, and Js. enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. Build an app with the React Router DOM to allow nested routing. This website is hosted on GitHub on Google Drive.",
+        description: "Developed the front-end with HTML and CSS enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. Build this web with pure html. This website is hosted on CodePen.",
         typeofcard: "basic",
         link: "https://codepen.io/Swamfire/full/xxJZBNW",
         repo: "https://codepen.io/Swamfire/pen/xxJZBNW",
     },
-    {
-
-        img: resume,
-        name: "Self Resume using Bootstrap",
-        description: "Developed the front-end with HTML, CSS, and Js. enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. Build an app with the React Router DOM to allow nested routing. This website is hosted on GitHub on Google Drive.",
-        typeofcard: "basic",
-        link: "https://new-webs-aswwebhosting.on.drv.tw/Bootstrap Resume/",
-        repo: "https://drive.google.com/drive/folders/1pynpeuwGppMOeDP3vwLnU5w6Btn3y6jy?usp=share_link"
-    },
-    {
-
+    { 
         img: calsy,
         name: "Basic 2D Calculator",
-        description: "Developed the front-end with HTML, CSS, and Js. enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. Build an app with the React Router DOM to allow nested routing. This website is hosted on GitHub on Google Drive.",
+        description: "Developed the front-end and working functionality with HTML and CSS Only. It is mobile responsive and user can perform calculations on it. user can perform any type of calculations on it based on the functionalitys. This website is hosted on Google Drive.",
         typeofcard: "basic",
         link: "https://new-webs-aswwebhosting.on.drv.tw/Basic_Calculator/Main_Index.html",
         repo: "https://drive.google.com/drive/folders/1C5_8yREbq5dLg3iYDwzQEE1NfZT8KBeJ?usp=share_link"
     },
     {
 
+        img: resume,
+        name: "Self Resume using Bootstrap",
+        description: "This web is created with HTML, CSS, and Bootstrap's min.css with learning bootstrap and Ajax. This website is hosted on Google Drive.",
+        typeofcard: "basic",
+        link: "https://new-webs-aswwebhosting.on.drv.tw/Bootstrap Resume/",
+        repo: "https://drive.google.com/drive/folders/1pynpeuwGppMOeDP3vwLnU5w6Btn3y6jy?usp=share_link"
+    },
+    {
+
         img: slp,
         name: "Stunning Landing Page",
-        description: "Developed the front-end with HTML, CSS, and Js. enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. Build an app with the React Router DOM to allow nested routing. This website is hosted on GitHub on Google Drive.",
+        description: "Developed the front-end while learning CSS3. performed various animations and styling. This website is hosted on Google Drive.",
         typeofcard: "basic",
         link: "https://new-webs-aswwebhosting.on.drv.tw/Stunning Landing Page/Index.html",
         repo: "https://drive.google.com/drive/folders/1YiuPAFsb2yj2Gkq258TVKTTlsyKtec3a?usp=share_link"
@@ -83,7 +82,7 @@ const ProjectAPI = [
     {
         img: edyodaStories,
         name: "Edyoda Stories",
-        description: "Developed the front-end with HTML, CSS, and Js. enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. Build an app with the React Router DOM to allow nested routing. This website is hosted on GitHub on Google Drive.",
+        description: "Developed the front-end while learning CSS3. performed various animations and styling. This website is hosted on Google Drive.",
         typeofcard: "basic",
         link: "https://codepen.io/Swamfire/full/abKrjgL",
         repo: "https://codepen.io/Swamfire/pen/abKrjgL"
@@ -91,7 +90,7 @@ const ProjectAPI = [
     {
         img: QuizApp,
         name: "The Quiz App",
-        description: "Developed the front-end with HTML, CSS, and Js. enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. Build an app with the React Router DOM to allow nested routing. This website is hosted on GitHub on Google Drive.",
+        description: "Developed the functioning with HTML, CSS, and Js. enhanced user experience with CSS3, and performed various animations and styling. This website is hosted on CodePen.",
         typeofcard: "basic",
         link: "https://codepen.io/Swamfire/full/MWBqWYK",
         repo: "https://codepen.io/Swamfire/pen/MWBqWYK"
@@ -100,7 +99,7 @@ const ProjectAPI = [
     {
         img: FevFood,
         name: "Fevorate Food web",
-        description: "Developed the front-end with HTML, CSS, and Js. enhanced mobile responsiveness and user experience with CSS3, and performed various animations and styling. Build an app with the React Router DOM to allow nested routing. This website is hosted on GitHub on Google Drive.",
+        description: "Developed the front-end while learning CSS3. performed various animations and styling. This website is hosted on Google Drive.",
         typeofcard: "basic",
         link: "https://codepen.io/Swamfire/full/VwdVdWG",
         repo: "https://codepen.io/Swamfire/pen/VwdVdWG"

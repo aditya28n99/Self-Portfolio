@@ -23,6 +23,8 @@ function App() {
         <Route path='/about'  Component={About}/>
         <Route path='/contact' Component={Contact}/>
         <Route path='/Components' Component={Certificates}/>
+        {/* <Route path='/cv' href="https://www.google.com"  /> */}
+        
         <Route path='/Activities' Component={Activities}/>
       </Routes>
     </Router>

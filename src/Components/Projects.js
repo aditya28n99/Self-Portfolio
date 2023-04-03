@@ -17,7 +17,7 @@ function Projects() {
     return (
         <>
             <Container>
-                <div className="project-title-heading">PROJECTS</div>
+                <div id='project-heading' className="project-title-heading">PROJECTS</div>
                 <div className="project_title m-3" >
                     <div>
                         <Button className='buttons' variant="secondary" size="sm" onClick={() => webs("basic")}>Basic projects</Button>{' '}
