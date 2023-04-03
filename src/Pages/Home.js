@@ -4,6 +4,7 @@ import Introduction from '../Components/Introduction';
 import Projects from '../Components/Projects';
 import Footer from '../Components/Footer';
 import Education from '../Components/Education';
+import Scrollbtn from '../Components/Scrollbtn';
 
 function Home() {
     return (<>
@@ -11,6 +12,7 @@ function Home() {
     <Education/>
     <Projects/>
     <Footer/>
+    <Scrollbtn/>
     </>);
 };
 export default Home;

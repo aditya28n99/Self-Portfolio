@@ -12,7 +12,7 @@ function Footer() {
           </div>
 
           <div className='m-auto my-2 col-white'>
-            <h6>This web is created using <strong>React and BootStrap</strong></h6>
+            <p>Created using <strong>React and BootStrap</strong></p>
           </div>
           <div className='m-auto col-white'>
             <p> &copy; 2023 All Rights Reserved</p>
