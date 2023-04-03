@@ -1,0 +1,25 @@
+.imgbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 5%;
+    width: 400px;
+    height: 440px;
+    /* border: 1px solid black; */
+    background-image: url("../Images/colorfream.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgbox img{
+    width: 45%;
+    height: 48%;
+    border-radius: 10px;
+}
+@media screen and ( max-width: 1300px) {
+    /*  */
+    .imgbox{
+        width: 300px;
+        height: 340px;
+    }
+}

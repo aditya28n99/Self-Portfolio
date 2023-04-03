@@ -10,7 +10,6 @@ function Footer() {
           <div className=' d-flex m-auto text-center'>
             <SocialIcons/>
           </div>
-
           <div className='m-auto my-2 col-white'>
             <p>Created using <strong>React and BootStrap</strong></p>
           </div>

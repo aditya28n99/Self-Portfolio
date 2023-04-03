@@ -49,7 +49,7 @@ function ContactForm() {
                         <Form.Group as={Col} controlId="formGridState">
                             <Form.Label>Contacting for</Form.Label>
                             <Form.Select id='selects' onChange={()=> collabe()} defaultValue="Hiring">
-                                <option value={"Hiring"} selected>Hiring</option>
+                                <option value={"Hiring"} defaultValue={"Hiring"}>Hiring</option>
                                 <option value={"Collaboration"} >Working with me..</option>
                             </Form.Select>
                         </Form.Group>
